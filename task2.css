@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Playfair Display",serif;;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    padding: 10px 30px;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    background-color: #ccc;
+    border-radius: 4px;
+  }
+  .img {
+    background-image: url("brgar.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 800px;
+    width: 100%;
+  }
+  .about {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px 80px;
+    background-color: #fff;
+  }
+  .about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .about img {
+    width: 35%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .about h2 {
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    color: #000;
+    text-align: center;
+  }
+  
+  .about h4 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+    color: #666;
+    text-align: center;
+  }
+  
+  .about p {
+    font-size: 16px;
+    color: #444;
+    max-width: 600px;
+  }.menu-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 60px 80px;
+    background-color: white;
+    gap: 50px;
+  }
+  
+  .menu-text {
+    flex: 1;
+  }
+  
+  .menu-text h2 {
+    font-size: 36px;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+    color: #111;
+    font-family: 'Georgia', serif;
+  }
+  
+  .menu-item h3 {
+    font-size: 20px;
+    letter-spacing: 6px;
+    margin-bottom: 10px;
+    color: #111;
+    font-family: 'Georgia', serif;
+  }
+  
+  .menu-item p {
+    font-size: 15px;
+    color: #444;
+    margin-bottom: 30px;
+    font-family: 'Georgia', serif;
+  }
+  
+  .menu-image {
+    flex: 1;
+  }
+  
+  .menu-image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  .contact-section {
+    padding: 64px 0;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-top: 1px solid #eee;
+  }
+  
+  .contact-section h2 {
+    font-size: 36px;
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+  }
+  
+  .contact-section p {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section b {
+    font-size: 18px;
+  }
+  
+  .contact-form {
+    margin-top: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .send-btn {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 12px 24px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .send-btn:hover {
+    background-color: #ccc;
+  }
+  .footer{
+    background-color:#ddd;
+    text-align: center;
+    margin: 40px 40px;
+    padding: 15px;
+
+  }
